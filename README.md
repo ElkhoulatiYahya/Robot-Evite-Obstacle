@@ -39,11 +39,11 @@ Ce projet consiste en la conception d'un robot autonome capable d'éviter les ob
 
 ### Fonctionnalités
 
-- Détection d'obstacles 🛑 : Utilisation du capteur ultrason HC-SR04 pour mesurer la distance aux obstacles.
-- Évitement automatique 🤖 : Le robot s'arrête, analyse son environnement et choisit la meilleure direction.
-- Rotation du capteur 🔄 : Le servomoteur permet d'orienter le capteur pour scanner la zone devant le robot.
-- Déplacement intelligent 🔍 : Le robot avance, recule ou tourne en fonction des distances mesurées.
-- Affichage des données 📊 : Les distances détectées sont envoyées et affichées dans le moniteur série Arduino.
+- Détection d'obstacles: Utilisation du capteur ultrason HC-SR04 pour mesurer la distance aux obstacles.
+- Évitement automatique: Le robot s'arrête, analyse son environnement et choisit la meilleure direction.
+- Rotation du capteur: Le servomoteur permet d'orienter le capteur pour scanner la zone devant le robot.
+- Déplacement intelligent: Le robot avance, recule ou tourne en fonction des distances mesurées.
+- Affichage des données: Les distances détectées sont envoyées et affichées dans le moniteur série Arduino.
 
 ### Exemple de Code
 
@@ -119,25 +119,25 @@ void arreter() {
 
 ### Étapes
 
-1. Assembler les composants 🔧 en connectant le module L298N, les moteurs ⚙️, le capteur HC-SR04 📡 et le servomoteur 🔄 à l’Arduino.
-2. Téléverser le code 💻 dans l’IDE Arduino, sélectionner la carte 🎯 et le port 🔌, puis l’envoyer vers l’Arduino.
-3. Alimenter le robot 🔋 avec une batterie externe et vérifier que tous les composants fonctionnent correctement.
-4. Tester et ajuster 🛠️ les distances de détection et la vitesse des moteurs pour améliorer la navigation du robot 🤖.
+1. Assembler les composants en connectant le module L298N, les moteurs, le capteur HC-SR04 et le servomoteur à l’Arduino.
+2. Téléverser le code dans l’IDE Arduino, sélectionner la carte et le port, puis l’envoyer vers l’Arduino.
+3. Alimenter le robot avec une batterie externe et vérifier que tous les composants fonctionnent correctement.
+4. Tester et ajuster les distances de détection et la vitesse des moteurs pour améliorer la navigation du robot.
 
 ### Résultats Clés
 
-- Le robot détecte les obstacles grâce au capteur ultrason HC-SR04 📡 et ajuste sa trajectoire.
-- Il utilise un servomoteur 🔄 pour analyser les directions possibles et choisir le meilleur chemin.
-- Les moteurs contrôlés par le module L298N ⚙️ permettent au robot d’avancer, reculer et éviter les obstacles en toute autonomie 🤖.
+- Le robot détecte les obstacles grâce au capteur ultrason HC-SR04 et ajuste sa trajectoire.
+- Il utilise un servomoteur pour analyser les directions possibles et choisir le meilleur chemin.
+- Les moteurs contrôlés par le module L298N permettent au robot d’avancer, reculer et éviter les obstacles en toute autonomie.
 
 ---
 
 ## Applications
 
-- **Robotique mobile 🤖** : Utilisé pour concevoir des robots autonomes capables d'éviter les obstacles.
-- **Domotique 🏡** : Peut être adapté pour des systèmes de surveillance ou d'assistance à la navigation dans les maisons intelligentes..
-- **Éducation et apprentissage 📚** : Idéal pour initier les étudiants à la programmation et au contrôle des moteurs avec Arduino.
-- **Exploration et cartographie 🛰️**: Peut être intégré dans des robots explorateurs pour naviguer dans des environnements inconnus.
+- **Robotique mobile** : Utilisé pour concevoir des robots autonomes capables d'éviter les obstacles.
+- **Domotique** : Peut être adapté pour des systèmes de surveillance ou d'assistance à la navigation dans les maisons intelligentes..
+- **Éducation et apprentissage** : Idéal pour initier les étudiants à la programmation et au contrôle des moteurs avec Arduino.
+- **Exploration et cartographie**: Peut être intégré dans des robots explorateurs pour naviguer dans des environnements inconnus.
 
 ---
 
